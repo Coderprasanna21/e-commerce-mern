@@ -1,0 +1,19 @@
+
+.loader-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 1.5rem; 
+    height: 50vh; 
+
+    .spinner-grow {
+      width: 2rem;
+      height: 2rem; 
+      background-color: var(--blue);
+      border-radius: 50%;
+    }
+  }
+  
+
+  
+

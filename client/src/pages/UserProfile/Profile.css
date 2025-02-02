@@ -1,0 +1,8 @@
+.spinner{
+    display: grid;
+    place-items: center;
+}
+.profile-container{
+    display: grid;
+    place-items: center;
+}

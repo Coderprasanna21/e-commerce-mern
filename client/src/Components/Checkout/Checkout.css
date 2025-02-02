@@ -1,0 +1,89 @@
+.checkout-container {
+    max-width: 900px;
+  }
+  
+  /* Headings */
+  h2, h3 {
+    font-weight: 600;
+    color: #333;
+  }
+  
+  /* Card Styling */
+  .card {
+    border: none;
+    border-radius: 12px;
+    background: #ffffff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .card:hover {
+    box-shadow: 0px 6px 14px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Form Inputs */
+  .form-control {
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    font-size: 16px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.2);
+  }
+  
+  /* List Group for Order Summary */
+  .list-group-item {
+    border: none;
+    background: transparent;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  .list-group-item span {
+    color: #555;
+  }
+  
+  /* Payment Checkbox */
+  .form-check-input {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  /* Place Order Button */
+  .btn-primary {
+    background: linear-gradient(to right, #007bff, #0056b3);
+    border: none;
+    padding: 12px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .btn-primary:hover {
+    background: linear-gradient(to right, #0056b3, #003f7f);
+    transform: translateY(-2px);
+  }
+  
+  .btn-primary:disabled {
+    background: #cccccc;
+    cursor: not-allowed;
+  }
+  
+  /* Mobile Responsive */
+  @media (max-width: 768px) {
+    .container {
+      padding: 15px;
+    }
+  
+    .btn-primary {
+      width: 100%;
+    }
+  }
+  

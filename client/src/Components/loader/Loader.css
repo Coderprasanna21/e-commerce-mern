@@ -1,0 +1,9 @@
+.loading-container {
+       
+    display: grid;
+    place-items: center;
+    p{
+        text-align: center;
+        padding: 50px 0;
+    }
+  }

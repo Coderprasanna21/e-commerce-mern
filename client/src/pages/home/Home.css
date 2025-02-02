@@ -1,0 +1,75 @@
+article{
+    display: grid;
+    place-items: center;
+    height: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.slider
+{
+    width: 80vw;
+}
+.products-types{
+    height: auto;
+    width: 90vw;
+
+    .products{
+        height: 150px;
+        width: 150px;
+        display: grid;
+        place-items: center; 
+        text-align: center;
+        border-radius: 50%;
+        row-gap: 1px;
+        background-color: var(--liteblue);
+        color: rgb(15, 1, 66);
+        font-weight: 550;
+        font-size: .6rem;
+    }
+    
+}
+
+.products img
+{
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    object-fit: contain;
+}
+.offers-container
+{
+    display: flex;
+    /* width: 80vw; */
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    row-gap: 2rem;
+    margin-top: 2rem;
+
+
+.offers-container img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+    cursor: pointer;
+}
+}
+
+/* Make sure the container takes full width */
+.slider-container {
+    display: flex;               /* Enable flexbox */
+    justify-content: center;     /* Horizontally center the content */
+    align-items: center;         /* Vertically center if needed */
+    width: 100%;                 /* Ensure the container takes full width */
+    margin: 0 auto;              /* Center the container itself in the parent */
+    padding: 20px 0;             /* Optional padding for space above and below */
+  }
+  
+  .slider {
+    width: 100%; /* Optional: Ensure the slider takes full width */
+    max-width: 1200px; /* Limit the maximum width of the slider */
+  }
+  
+
+
+
