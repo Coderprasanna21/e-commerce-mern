@@ -8,14 +8,14 @@ const OrderContext = createContext();
 export const OrderContextProvider = ({ children }) => {
   const [loading, setLoading] = useState(false);
   const [shippingDetails, setShippingDetails] = useState({
-    email: "psprasanna2004@gmail.com",
-    phone: "9876549087",
-    name: "Prasanna",
-    address: "105,MainRoad Street, Athiyanallur, cuddalore",
-    city: "chidambaram",
-    state: "Tamilnadu",
-    zip: "608501",
-    country: "India",
+    email: "",
+    phone: "",
+    name: "",
+    address: "",
+    city: "",
+    state: "",
+    zip: "",
+    country: "",
   });
   const [orderList, setOrderList] = useState([]);
   const [fecthedOrder, setFetchedOrder] = useState([]);

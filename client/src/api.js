@@ -1,6 +1,7 @@
 import axios from "axios";
 
-const API = axios.create({ baseURL: "http://localhost:5000/api" });
+const API = axios.create({ baseURL:import.meta.env.VITE_APIENDPOINT});
+
 
 export const fetchProducts = () => API.get("/products");
 

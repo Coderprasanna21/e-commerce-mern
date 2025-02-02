@@ -55,9 +55,7 @@ const ProductDetail = () => {
     }
   };
 
-  const updateQuantity = ()=>{
-
-  }
+  
 
   const handleBuy = (productDetail) => {
     setOrderList([{ ...productDetail, quantity: quantity }]);

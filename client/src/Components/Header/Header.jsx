@@ -23,6 +23,7 @@ const Header = () => {
           <Link to="/">Home</Link>
           <Link to="/shop">Shop</Link>
           <Link to="/about">About</Link>
+          <Link to="/orders">Orders</Link>
         </nav>
         <section>
           <div className="cart position-relative">
